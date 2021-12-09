@@ -15,9 +15,6 @@ metacriticdbapp.py is the actual database application file of the Metacritic dat
 ### Metacritic Database
 metacriticgames.db is the database file housing all of the data scraped from the game pages on Metacritic.com. The file receives its data from metacriticreveiwscraper.py, and then is interacted with through metacriticdbapp.py. The database is SQLite3 based.
 
-### gameurls
-gameurls.csv is a comma separated values file containing all of the URLs scraped from Metacritic.com by metacriticpagescraper.py, which are then read by metacriticreviewscraper.py.
-
 ### Metacritic Database Backup
 metacriticgamesbackup.db is a backup of the database for emergencies.
 
